@@ -15,7 +15,14 @@ The [MechaCar_mpg.csv ]() dataset contains mpg test results for 50 prototype Mec
 ## Results
 
 ### Linear Regression to Predict MPG 
-The MechaCar_mpg.csv dataset contains mpg test results for 50 prototype MechaCars. The MechaCar prototypes were produced using multiple design specifications to identify ideal vehicle performance. Multiple metrics, such as vehicle length, vehicle weight, spoiler angle, drivetrain, and ground clearance, were collected for each vehicle. Using your knowledge of R, you’ll design a linear model that predicts the mpg of MechaCar prototypes using several variables from the MechaCar_mpg.csv file.
+Using the [MechaCar_mpg.csv ]() file and [MechaCarChallenge.Rmd]() file I got the following out put for linear regression to predict MPG:
+mechaCar_mpg_df
+![mechaCar_mpg_df]()
+linear regression model
+![linear regression model]()
+summary statistics
+![summary statistics]()
+
 * Which variables/coefficients provided a non-random amount of variance to the mpg values in the dataset?
 ![]()
 From the dataset results it can be  predicted that the following variables/coefficients provided a non-random amount of variance to the mpg values:
@@ -42,6 +49,15 @@ The MechaCar[ Suspension_Coil.csv]() dataset contains the results from multiple 
 * The suspension coil’s PSI continuous variable across all manufacturing lots
 * The following PSI metrics for each lot: mean, median, variance, and standard deviation.
 
+Using the [ Suspension_Coil.csv]() file and [MechaCarChallenge.Rmd]() file I got the following out put for Summary Statistics on Suspension Coils:
+total_summary
+![total_summary]()
+linear regression model
+![lot_summary ]()
+summary statistics
+![summary statistics]()
+
+
 
 1. The design specifications for the MechaCar suspension coils dictate that the variance of the suspension coils must not exceed 100 pounds per square inch. Does the current manufacturing data meet this design specification for all manufacturing lots in total and each lot individually? Why or why not?
 
@@ -57,6 +73,14 @@ So, lot 1 & lot 2 meet the current design specification perfectly and the lot3 s
 
 
 ## T-Tests on Suspension Coils
+
+Using the [ Suspension_Coil.csv]() file and [MechaCarChallenge.Rmd]() file I got the following out put for t-test:
+total_summary
+![total_summary]()
+linear regression model
+![lot_summary ]()
+summary statistics
+![summary statistics]()
 Using your knowledge of R, perform t-tests to determine if all manufacturing lots and each lot individually are statistically different from the population mean of 1,500 pounds per square inch.
 ![]()
 
