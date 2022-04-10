@@ -17,7 +17,7 @@ The [MechaCar_mpg.csv ]() dataset contains mpg test results for 50 prototype Mec
 ### Linear Regression to Predict MPG 
 Using the [MechaCar_mpg.csv ]() file and [MechaCarChallenge.Rmd]() file I got the following out put for linear regression to predict MPG:
 mechaCar_mpg_df
-![mechaCar_mpg_df]()
+![mechaCar_mpg_df](https://github.com/NishatSultana3538/MechaCar_Statistical_Analysis/blob/main/Image/Mecha_mpg.png)
 linear regression model
 ![linear regression model]()
 summary statistics
@@ -51,9 +51,9 @@ The MechaCar[ Suspension_Coil.csv]() dataset contains the results from multiple 
 
 Using the [ Suspension_Coil.csv]() file and [MechaCarChallenge.Rmd]() file I got the following out put for Summary Statistics on Suspension Coils:
 total_summary
-![total_summary]()
+![total_summary](https://github.com/NishatSultana3538/MechaCar_Statistical_Analysis/blob/main/Image/total_summary.png)
 linear regression model
-![lot_summary ]()
+![lot_summary ](https://github.com/NishatSultana3538/MechaCar_Statistical_Analysis/blob/main/Image/lot_summary.png)
 summary statistics
 ![summary statistics]()
 
@@ -76,9 +76,9 @@ So, lot 1 & lot 2 meet the current design specification perfectly and the lot3 s
 
 Using the [ Suspension_Coil.csv]() file and [MechaCarChallenge.Rmd]() file I got the following out put for t-test:
 total_summary
-![total_summary]()
+![total_summary_t.test](https://github.com/NishatSultana3538/MechaCar_Statistical_Analysis/blob/main/Image/t_test.png)
 linear regression model
-![lot_summary ]()
+![lot_summary_t.test ](https://github.com/NishatSultana3538/MechaCar_Statistical_Analysis/blob/main/Image/lot_summary_t_test.png)
 summary statistics
 ![summary statistics]()
 Using your knowledge of R, perform t-tests to determine if all manufacturing lots and each lot individually are statistically different from the population mean of 1,500 pounds per square inch.
