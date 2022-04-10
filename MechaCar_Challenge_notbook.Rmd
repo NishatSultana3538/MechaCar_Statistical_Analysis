@@ -1,6 +1,9 @@
 ---
 title: "R Notebook"
-output: html_notebook
+output:
+  pdf_document: default
+  html_document:
+    df_print: paged
 ---
 
 This is an [R Markdown](http://rmarkdown.rstudio.com) Notebook. When you execute code within the notebook, the results appear beneath the code. 
@@ -53,7 +56,7 @@ t.test(suspension_coil$PSI,mu=1500)
 ```
 
 ```{r}
-#2. Use t.test() function 3 more times with subset() to determine if PSI for each manufacturing lot is statistically different from the pop. mean of 1,500 PSI
+# Use t.test() function 3 more times with subset() to determine if PSI for each manufacturing lot is statistically different from the pop. mean of 1,500 PSI
 lot1 <- subset(suspension_coil, Manufacturing_Lot=="Lot1")
 lot2 <- subset(suspension_coil, Manufacturing_Lot=="Lot2")
 lot3 <- subset(suspension_coil, Manufacturing_Lot=="Lot3")
