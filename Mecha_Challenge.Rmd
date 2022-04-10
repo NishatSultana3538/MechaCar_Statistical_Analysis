@@ -1,0 +1,74 @@
+---
+title: "R Notebook"
+output: html_notebook
+---
+
+This is an [R Markdown](http://rmarkdown.rstudio.com) Notebook. When you execute code within the notebook, the results appear beneath the code. 
+
+Try executing this chunk by clicking the *Run* button within the chunk or by placing your cursor inside it and pressing *Cmd+Shift+Enter*. 
+
+```{r}
+library(dplyr)
+mechaCar_mpg_df <- read.csv('MechaCar_mpg.csv' , check.names=F, stringsAsFactors = F)
+head(mechaCar_mpg_df)
+```
+
+
+```{r}
+lm(mpg ~ vehicle_length + vehicle_weight + spoiler_angle + ground_clearance + AWD,data=mechaCar_mpg_df) #generate multiple linear regression model
+
+```
+
+
+```{r}
+summary(lm(mpg ~ vehicle_length + vehicle_weight + spoiler_angle + ground_clearance + AWD,data=mechaCar_mpg_df)) #generate summary statistics
+```
+
+
+```{r}
+#Summary Statistics on Suspension Coils
+suspension_coil_table <- read.csv('Suspension_Coil.csv' , check.names=F, stringsAsFactors = F)
+head(suspension_coil_table)
+```
+
+
+```{r}
+total_summary_df <- suspension_coil_table %>% summarize(Mean=mean(PSI), Median=median(PSI), Variance=var(PSI), SD=sd(PSI), .groups = 'keep') #create summary table
+#head(total_summary_df)
+total_summary_df
+```
+
+
+```{r}
+lot_summary <- suspension_coil_table %>% group_by(Manufacturing_Lot) %>% summarize(Mean=mean(PSI), Median=median(PSI), Variance=var(PSI), SD=sd(PSI), .groups = 'keep') #create summary table
+lot_summary
+
+```
+
+
+```{r}
+#T-Test on Suspension Coils
+# compare sample versus population means
+t.test(suspension_coil$PSI,mu=1500)
+```
+
+```{r}
+#2. Use t.test() function 3 more times with subset() to determine if PSI for each manufacturing lot is statistically different from the pop. mean of 1,500 PSI
+lot1 <- subset(suspension_coil, Manufacturing_Lot=="Lot1")
+lot2 <- subset(suspension_coil, Manufacturing_Lot=="Lot2")
+lot3 <- subset(suspension_coil, Manufacturing_Lot=="Lot3")
+
+t.test(lot1$PSI,mu=1500)
+t.test(lot2$PSI,mu=1500)
+t.test(lot3$PSI,mu=1500)
+
+# log10 was not used as the data was not skewed and did not need any smoothing
+
+```
+
+Add a new chunk by clicking the *Insert Chunk* button on the toolbar or by pressing *Cmd+Option+I*.
+
+When you save the notebook, an HTML file containing the code and output will be saved alongside it (click the *Preview* button or press *Cmd+Shift+K* to preview the HTML file). 
+
+The preview shows you a rendered HTML copy of the contents of the editor. Consequently, unlike *Knit*, *Preview* does not run any R code chunks. Instead, the output of the chunk when it was last run in the editor is displayed.
+
