@@ -17,11 +17,11 @@ The [MechaCar_mpg.csv ]() dataset contains mpg test results for 50 prototype Mec
 ### Linear Regression to Predict MPG 
 Using the [MechaCar_mpg.csv ]() file and [MechaCarChallenge.Rmd]() file I got the following out put for linear regression to predict MPG:
 mechaCar_mpg_df
-![mechaCar_mpg_df](https://github.com/NishatSultana3538/MechaCar_Statistical_Analysis/blob/main/Image/Mecha_mpg.png)
+![mechaCar_mpg_df](https://github.com/NishatSultana3538/MechaCar_Statistical_Analysis/blob/main/Image/mechacar_mpg_df.png)
 linear regression model
-![linear regression model]()
+![linear regression model](https://github.com/NishatSultana3538/MechaCar_Statistical_Analysis/blob/main/Image/linear%20model.png)
 summary statistics
-![summary statistics]()
+![summary statistics](https://github.com/NishatSultana3538/MechaCar_Statistical_Analysis/blob/main/Image/linear%20model_summary.png)
 
 * Which variables/coefficients provided a non-random amount of variance to the mpg values in the dataset?
 ![]()
