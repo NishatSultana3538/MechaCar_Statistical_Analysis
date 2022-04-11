@@ -62,7 +62,7 @@ Total_summary
 
 ![total_summary](https://github.com/NishatSultana3538/MechaCar_Statistical_Analysis/blob/main/Image/total_summary.png)
 
-linear regression model
+Lot_summary 
 
 ![lot_summary ](https://github.com/NishatSultana3538/MechaCar_Statistical_Analysis/blob/main/Image/lot_summary.png)
 
