@@ -108,7 +108,7 @@ Using your knowledge of R, design a statistical study to compare performance of 
 
 1. Write a short description of a statistical study that can quantify how the MechaCar performs against the competition. In your study design, think critically about what metrics would be of interest to a consumer: for a few examples, cost, city or highway fuel efficiency, horse power, maintenance cost, or safety rating.
 
-To compare MechaCar is priced correctly compared to it's competitor I will design a statistical analysis model where I will collect some key feature data to measure the performance and also collect cost (buying price + maintenance) and then perform multiple linear regression  to determine the factors that have the highest correlation/predictability with the cost effectiveness.
+To compare MechaCar is priced correctly compared to it's competitor I will design a statistical analysis model where I will collect some key feature data to measure the performance and also collect cost (buying price + maintenance) data from MechCar  and it's competitor and then perform multiple linear regression  to determine the factors that have the highest correlation/predictability with the cost effectiveness.
 
 2. In your description, address the following questions:
 
