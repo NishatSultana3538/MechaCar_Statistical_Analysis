@@ -103,8 +103,29 @@ However, for Lot 3,  the sample mean is 1496.14 and the p-Value is 0.04, which i
 Using your knowledge of R, design a statistical study to compare performance of the MechaCar vehicles against performance of vehicles from other manufacturers.
 
 1. Write a short description of a statistical study that can quantify how the MechaCar performs against the competition. In your study design, think critically about what metrics would be of interest to a consumer: for a few examples, cost, city or highway fuel efficiency, horse power, maintenance cost, or safety rating.
+
+To compare MechaCar is priced correctly compared to it's competitor I will design a statistical analysis model where I will collect some key feature data to measure the performance and also collect cost (buying price + maintenance) and then perform multiple linear regression would be used to determine the factors that have the highest correlation/predictability with the cost effectiveness.
+
 2. In your description, address the following questions:
+
 * What metric or metrics are you going to test?
+
+The following metrics need to be collected to perform the statistical analysis:
+Safety Rating
+Price
+Maintenance cost
+Fuel EfficIency 
+
 * What is the null hypothesis or alternative hypothesis?
+
+Null Hypothesis (Ho): MechaCar is cost effective based on its performance of key factors .
+
+Alternative Hypothesis (Ha): MechaCar is NOT cost effective based on performance of key factors .
+
 * What statistical test would you use to test the hypothesis? And why?
+A multiple linear regression would be used to determine the factors that have the highest correlation/predictability with the cost effectiveness of the car; which combination has the greatest impact on price (it may be all of them!)
 * What data is needed to run the statistical test?
+Ratings on safety feature
+Buying price
+Average Annual Cost of Ownership(maintenance cost) 
+Fuel Efficiency(mpg)
