@@ -54,6 +54,10 @@ The MechaCar[ Suspension_Coil.csv](https://github.com/NishatSultana3538/MechaCar
 
 Using the [ Suspension_Coil.csv](https://github.com/NishatSultana3538/MechaCar_Statistical_Analysis/blob/main/Suspension_Coil.csv) file and [MechaCarChallenge.Rmd](https://github.com/NishatSultana3538/MechaCar_Statistical_Analysis/blob/main/MechaCarChallenge.Rmd) file I got the following out put for Summary Statistics on Suspension Coils:
 
+Suspension_coil_table
+
+![Suspension_coil_table](https://github.com/NishatSultana3538/MechaCar_Statistical_Analysis/blob/main/Image/suspension_coil.png)
+
 Total_summary
 
 ![total_summary](https://github.com/NishatSultana3538/MechaCar_Statistical_Analysis/blob/main/Image/total_summary.png)
